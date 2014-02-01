@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.vwarship.applicationlifetime&apos; to &apos;com.vwarship.activitylifecycle&apos;&#x0A;- Original project: &apos;ActivityLifecycle&apos;&#x0A;- Original element: &apos;ActivityLifecycle/src/com.vwarship.applicationlifetime&apos;&#x0A;- Renamed element: &apos;ActivityLifecycle/src/com.vwarship.activitylifecycle&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.vwarship.applicationlifetime&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.vwarship.applicationlifetime" name="com.vwarship.activitylifecycle" qualified="false" references="true" stamp="1391280746083" textual="false" version="1.0"/>
+</session>
