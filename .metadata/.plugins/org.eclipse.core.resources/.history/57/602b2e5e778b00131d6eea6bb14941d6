@@ -36,6 +36,7 @@ public class MainActivity extends Activity {
     protected void onStart() {
     	super.onStart();
     	
+        m_textView.setText(m_textView.getText()+"\n"+"onStart");
         Log("onStart");
     }
 

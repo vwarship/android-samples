@@ -18,60 +18,49 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        m_textView = (TextView)this.findViewById(R.id.textView);
-        
-    	Log("onCreate");
-    }
-    
-    private void Log(String text)
-    {
-    	StringBuilder sb = new StringBuilder(m_textView.getText());
-    	sb.append('\n').append(text);
-    	
-        m_textView.setText(sb.toString());
-    	Log.i(TAG, text);
+    	Log.i(TAG, "onCreate");
     }
     
     @Override
     protected void onStart() {
     	super.onStart();
     	
-        Log("onStart");
+    	Log.i(TAG, "onStart");
     }
 
     @Override
     protected void onResume() {
     	super.onResume();
     	
-    	Log("onResume");
+    	Log.i(TAG, "onResume");
     }
     
     @Override
     protected void onPause() {
     	super.onPause();
     	
-    	Log("onPause");
+    	Log.i(TAG, "onPause");
     }
     
     @Override
     protected void onStop() {
     	super.onStop();
     	
-    	Log("onStop");
+    	Log.i(TAG, "onStop");
     }
     
     @Override
     protected void onRestart() {
     	super.onRestart();
     	
-    	Log("onRestart");
+    	Log.i(TAG, "onRestart");
     }
     
     @Override
     protected void onDestroy() {
     	super.onDestroy();
     	
-    	Log("onDestroy");
+    	Log.i(TAG, "onDestroy");
     }
 
     @Override

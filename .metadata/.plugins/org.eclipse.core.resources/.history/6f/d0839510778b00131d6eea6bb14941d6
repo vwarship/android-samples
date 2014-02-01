@@ -36,42 +36,43 @@ public class MainActivity extends Activity {
     protected void onStart() {
     	super.onStart();
     	
-        Log("onStart");
+        m_textView.setText(m_textView.getText()+"\n"+"onStart");
+    	Log.i(TAG, "onStart");
     }
 
     @Override
     protected void onResume() {
     	super.onResume();
     	
-    	Log("onResume");
+    	Log.i(TAG, "onResume");
     }
     
     @Override
     protected void onPause() {
     	super.onPause();
     	
-    	Log("onPause");
+    	Log.i(TAG, "onPause");
     }
     
     @Override
     protected void onStop() {
     	super.onStop();
     	
-    	Log("onStop");
+    	Log.i(TAG, "onStop");
     }
     
     @Override
     protected void onRestart() {
     	super.onRestart();
     	
-    	Log("onRestart");
+    	Log.i(TAG, "onRestart");
     }
     
     @Override
     protected void onDestroy() {
     	super.onDestroy();
     	
-    	Log("onDestroy");
+    	Log.i(TAG, "onDestroy");
     }
 
     @Override
