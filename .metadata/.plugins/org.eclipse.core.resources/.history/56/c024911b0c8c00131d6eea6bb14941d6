@@ -1,0 +1,31 @@
+package com.vwarship.androidexamples.imageview;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+import android.widget.ImageView;
+
+public class MainActivity extends Activity {
+	private static final String TAG = "MainActivity";
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		ImageView imageView = (ImageView)this.findViewById(R.id.imageview);
+		imageView.setLayoutParams(new LayoutParams(300, 200));
+		
+		Log.i(TAG, "width:"+imageView.getLayoutParams().width);
+		Log.i(TAG, "height:"+imageView.getLayoutParams().height);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
