@@ -3,6 +3,7 @@
 
     <string name="app_name">ImageView</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="imageview_clip_center_content_desc">图像裁剪居中</string>
+    <string name="imageview_scale_center_content_desc">图像等比例缩放居中</string>
 
 </resources>

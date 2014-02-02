@@ -10,8 +10,8 @@
     tools:context=".MainActivity" >
     
     <ImageView 
-        android:id="@+id/imageViewClipCenter"
-        android:contentDescription="@string/imageview_clip_center_content_desc"
+        android:id="@+id/imageview"
+        android:contentDescription="图像裁剪居中"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -20,8 +20,8 @@
         android:scaleType="center"/>
     
     <ImageView 
-        android:id="@+id/imageViewScaleCenter"
-        android:contentDescription="@string/imageview_scale_center_content_desc"
+        android:id="@+id/imageview2"
+        android:contentDescription="图像等比例缩放居中"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
